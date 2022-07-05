@@ -1,0 +1,95 @@
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 63%;
+  height: 680px;
+  background-color: rgba(0,0,0,0.5);
+  margin:auto;
+  margin-top: 20px;
+  border-radius: 13px;
+}
+
+header > img {
+  margin-top: 100px;
+  width: 170px;
+}
+
+header > h1 {
+  color:#00dd00;
+  font-size: 23px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+h1, h2 {
+  font-family: 'Amaranth', sans-serif;
+}
+
+header, nav {
+  text-align: center;
+}
+
+.container2 {
+  width: 825px;
+  margin:auto;
+  color: white;
+}
+
+nav {
+  height: 30px;
+  background-color:#00dd00;
+}
+
+button {
+  margin-top: 8px;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.information {
+  width: 11px;
+  height: 11px;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 6px;
+  margin-top: 20px;
+}
+
+#street, p {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 15px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.arrow:before {
+  content:"\27FC";
+  font-size: 10px;
+}
+
+.load1 , .load2, .load3 {
+  height: 25px;
+  border-radius: 8px;
+}
+
+.load1 {
+  width: 300px;
+  background-color:#f5b453;
+}
+
+.load2 {
+  width: 490px;
+  background-color:#1ec31e;
+}
+
+.load3 {
+  width: 118px;
+  background-color:#be4141;
+}
